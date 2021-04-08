@@ -77,11 +77,12 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
             (5781980, uint256("0xa91e780de0b3f91f1b0515e56296b54804730cdfd21a45b4d2c433a3f92aebb7"))
             (6043693, uint256("0x5518c133fead075e372027e69c2b245a01d5a6e95ef3c97d576bf42a62d1e6ef"))
 	        (6887217, uint256("0x58edc430d6ecc35ae3fa4d8ccdfb8a42752ff771d2a08c8e6dc1f1b3b6782d4d"))
+			(7081698, uint256("0x4342f79249ffe1c4afe08fca143ee9945579528a9047afc0e79ef276ea6fde6b"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1611918200, // * UNIX timestamp of last checkpoint block
-        8126556,   // * total number of transactions between genesis and last checkpoint
+        1617855646, // * UNIX timestamp of last checkpoint block
+        8322858,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         2880.0     // * estimated number of transactions per day after checkpoint
     };
@@ -165,6 +166,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("infinitecoin.com", "dnsseed.infinitecoin.com"));
         vSeeds.push_back(CDNSSeedData("ifcf2pool.com", "dnsseed.ifcf2pool.com"));
+		vSeeds.push_back(CDNSSeedData("ifcp2pool.com", "dnsseed.ifcp2pool.com"));
         vSeeds.push_back(CDNSSeedData("amxpool.com", "dnsseed.amxpool.com"));
         vSeeds.push_back(CDNSSeedData("amzpool.com", "dnsseed.amzpool.co"));
         vSeeds.push_back(CDNSSeedData("bmapool.com", "dnsseed.bmapool.com"));
@@ -175,6 +177,7 @@ public:
         vSeeds.push_back(CDNSSeedData("amxcom.com", "dnsseed.amxcom.com"));
 		vSeeds.push_back(CDNSSeedData("smpool.com", "dnsseed.smpool.com"));
         vSeeds.push_back(CDNSSeedData("wxbkc.com", "dnsseed.wxbkc.com"));
+		vSeeds.push_back(CDNSSeedData("ifcqd.com", "dnsseed.ifcqd.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(102);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
