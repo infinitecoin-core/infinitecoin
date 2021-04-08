@@ -3158,8 +3158,8 @@ rpcpassword=%s
         <translation>版权所有 (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
 	<message>
-        <source>Copyright (C) 2011-%i The Litecoin Core Developers</source>
-        <translation>版权所有 (C) 2011-%i The Litecoin Core Developers</translation>
+        <source>Copyright (C) 2011-%i The Infinitecoin Core Developers</source>
+        <translation>版权所有 (C) 2011-%i The Infinitecoin Core Developers</translation>
     </message>
 	<message>
         <source>Copyright (C) 2013-%i The Infinitecoin Core Developers</source>
