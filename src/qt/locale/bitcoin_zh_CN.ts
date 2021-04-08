@@ -3155,15 +3155,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>版权所有 (C) 2009-%i The Bitcoin Core Developers</translation>
-    </message>
-	<message>
-        <source>Copyright (C) 2011-%i The Infinitecoin Core Developers</source>
-        <translation>版权所有 (C) 2011-%i The Infinitecoin Core Developers</translation>
-    </message>
-	<message>
-        <source>Copyright (C) 2013-%i The Infinitecoin Core Developers</source>
-        <translation>版权所有 (C) 2013-%i The Infinitecoin Core Developers</translation>
+        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
