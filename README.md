@@ -12,8 +12,14 @@ with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Infinitecoin Core is the name of open source
 software which enables the use of this currency.
 
-For more information, as well as an immediately useable, binary version of
-the Infinitecoin Core software, see https://infinitecoin.com
+Infinitecoin is scale version of Bitcoin using scrypt as a proof-of-work algorithm.
+
+ - 30 second block targets
+ - subsidy halves in 86400 blocks (~1 month)
+ - ~90600 million total coins
+ - 524288 coins per block
+ - 120 blocks to retarget difficulty
+
 
 License
 -------
@@ -29,10 +35,6 @@ their feature or bug fix is ready.
 
 If it is a simple/trivial/non-controversial change, then one of the Infinitecoin
 development team members simply pulls it.
-
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](https://groups.google.com/forum/#!forum/infinitecoin-dev).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -55,20 +57,10 @@ lots of money.
 
 Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
-Creating a thread in the [Infinitecoin discussion forum](https://infinitecointalk.org/index.php?board=2.0) will allow the Infinitecoin
+Creating a thread in the [Infinitecoin discussion forum](https://bitcointalk.org/index.php?topic=356065.new) will allow the Infinitecoin
 development team members to review your proposal and to provide assistance with creating a test plan. 
 
 
-Translations
-------------
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Infinitecoin periodically.
-
-Development tips and tricks
 ---------------------------
 
 **compiling for debugging**
