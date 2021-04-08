@@ -228,8 +228,8 @@ Value listunspent(const Array& params, bool fHelp)
 
             "\nExamples\n"
             + HelpExampleCli("listunspent", "")
-            + HelpExampleCli("listunspent", "6 9999999 \"[\\\"iAQbpnpKn8MDdcDQMUdA3GheoH4NwEUWPH\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
-            + HelpExampleRpc("listunspent", "6, 9999999 \"[\\\"iAQbpnpKn8MDdcDQMUdA3GheoH4NwEUWPH\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
+            + HelpExampleCli("listunspent", "6 9999999 \"[\\\"iAQbpnpKn8MDdcDQMUdA3GheoH4NwEUWPH\\\",\\\"iAQbpnpKn8MDdcDQMUdA3GheoH4NwEUWPH\\\"]\"")
+            + HelpExampleRpc("listunspent", "6, 9999999 \"[\\\"iAQbpnpKn8MDdcDQMUdA3GheoH4NwEUWPH\\\",\\\"iAQbpnpKn8MDdcDQMUdA3GheoH4NwEUWPH\\\"]\"")
         );
 
     RPCTypeCheck(params, list_of(int_type)(int_type)(array_type));
