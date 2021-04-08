@@ -1216,7 +1216,7 @@ case $basic_machine in
 		os=-vxworks
 		;;
 	w65*)
-		basic_machine=w65-ifc
+		basic_machine=w65-wdc
 		os=-none
 		;;
 	w89k-*)

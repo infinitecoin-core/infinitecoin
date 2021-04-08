@@ -1191,7 +1191,7 @@ EOF
 	echo hppa1.1-stratus-sysv4
 	exit ;;
     *:*:*:FTX*)
-	# From seanf@sifc.stratus.com.
+	# From seanf@swdc.stratus.com.
 	echo i860-stratus-sysv4
 	exit ;;
     i*86:VOS:*:*)
