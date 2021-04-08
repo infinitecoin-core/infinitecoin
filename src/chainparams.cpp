@@ -178,6 +178,7 @@ public:
 	vSeeds.push_back(CDNSSeedData("smpool.com", "dnsseed.smpool.com"));
         vSeeds.push_back(CDNSSeedData("wxbkc.com", "dnsseed.wxbkc.com"));
 	vSeeds.push_back(CDNSSeedData("ifcqd.com", "dnsseed.ifcqd.com"));
+	vSeeds.push_back(CDNSSeedData("wwifc.com", "dnsseed.wwifc.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(102);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
